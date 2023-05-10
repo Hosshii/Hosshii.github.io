@@ -3,4 +3,5 @@
         "./Cargo.toml",
     ],
     "rust-analyzer.showUnlinkedFileNotification": false,
+    "workbench.colorTheme": "Default Dark Modern"
 }

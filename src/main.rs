@@ -1,9 +1,11 @@
 use yew::prelude::*;
 use yew_router::prelude::*;
 
+mod components;
 mod nav;
 mod pages;
 mod route;
+
 use nav::Nav;
 use pages::{about::About, experiences::Experiences, skills::Skills, works::Works};
 use route::Route;
