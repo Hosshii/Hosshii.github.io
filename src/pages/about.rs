@@ -1,17 +1,17 @@
-use crate::components::common::{IconGitHub, PageTitle};
+use crate::components::common::{IconGitHub, SectionTitle};
 use yew::prelude::*;
 
 #[function_component(About)]
 pub fn about() -> Html {
     html! {
     <>
-      <div class="container mt-2 mx-2">
-        <PageTitle> { "About Me" } </PageTitle>
+      <section id="about">
+        <SectionTitle> { "About Me" } </SectionTitle>
 
         <div class="d-flex flex-row align-items-start">
           <div>
             <img
-              src="https://github.com/Hosshii.png"
+              src="assets/img/hosshii.jpeg"
               class="rounded-circle"
               style="max-width: 100px"
             />
@@ -39,7 +39,7 @@ pub fn about() -> Html {
             </ul>
           </div>
         </div>
-      </div>
+      </section>
     </>
-          }
+              }
 }
