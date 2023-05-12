@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Rust",
+        "percentage": 100
+    },
+    {
+        "title": "Go",
+        "percentage": 100
+    },
+    {
+        "title": "C",
+        "percentage": 60
+    },
+    {
+        "title": "Swift",
+        "percentage": 40
+    },
+    {
+        "title": "React",
+        "percentage": 40
+    },
+    {
+        "title": "Java",
+        "percentage": 40
+    },
+    {
+        "title": "Haskell",
+        "percentage": 20
+    },
+    {
+        "title": "Docker",
+        "percentage": 80
+    },
+    {
+        "title": "MySQL",
+        "percentage": 60
+    },
+    {
+        "title": "Ansible",
+        "percentage": 40
+    },
+    {
+        "title": "Terraform",
+        "percentage": 40
+    },
+    {
+        "title": "k8s",
+        "percentage": 40
+    }
+]

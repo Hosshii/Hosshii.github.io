@@ -1,7 +1,6 @@
 use std::rc::Rc;
 
-use once_cell::sync::Lazy;
-use serde::{Deserialize, Serialize};
+use serde::Deserialize;
 use url::Url;
 use yew::prelude::*;
 
@@ -56,7 +55,7 @@ pub fn work_modal(props: &Props) -> Html {
     html! {
       <div class="modal fade" id={overview.js_id.clone()} aria-labelledby={label}
       aria-hidden={"true"} >
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
             <h4 class="modal-title" id="exampleModalLabel">{overview.title.clone()}</h4>
@@ -101,7 +100,7 @@ pub fn work_overview(props: &Props) -> Html {
     }
 }
 
-#[derive(Debug, Clone, Serialize, Deserialize)]
+#[derive(Debug, Clone, Deserialize)]
 pub struct WorkData {
     pub title: String,
     pub link: Option<Url>,
@@ -110,18 +109,4 @@ pub struct WorkData {
     pub tech: String,
     pub detail: String,
     pub js_id: String,
-}
-
-const WORK_DATA_RAW: &str = include_str!("../../assets/data/works.json");
-
-thread_local! {
-    static WORK_DATA: Lazy<Rc<Vec<WorkData>>> = Lazy::new(|| Rc::new(load_assets()));
-}
-
-fn load_assets() -> Vec<WorkData> {
-    serde_json::from_str(WORK_DATA_RAW).expect("cannot parse to json")
-}
-
-pub fn get_assets() -> Rc<Vec<WorkData>> {
-    WORK_DATA.with(|v| Rc::clone(v))
 }

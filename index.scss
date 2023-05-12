@@ -1,0 +1,22 @@
+.__modal_overview:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.custom-progress {
+    background-image:
+        linear-gradient(to right,
+            transparent 24%,
+            #000 25%,
+            transparent 25%,
+            transparent 49%,
+            #000 50%,
+            transparent 50%,
+            transparent 74%,
+            #000 75%,
+            transparent 75%,
+            transparent 99%,
+            #000 100%);
+    background-size: 100% 100%;
+}
