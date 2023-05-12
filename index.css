@@ -1,0 +1,5 @@
+.__modal_overview:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+    cursor: pointer;
+}

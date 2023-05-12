@@ -12,7 +12,7 @@ fn app() -> Html {
     html! {
     <>
       <Nav />
-      <div class="container mt-3">
+      <div class="container my-3">
         <div class="d-flex flex-column gap-5">
           <About />
           <Skills />

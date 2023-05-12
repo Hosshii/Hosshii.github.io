@@ -1,0 +1,20 @@
+[
+  {
+    "title": "ISUCON11本戦ベンチマーカー",
+    "link": "https://github.com/isucon/isucon11-final",
+    "img_src": "",
+    "summary": "ISUCON11ベンチマーカー",
+    "tech": "Go,MySQL,Docker",
+    "detail": "ISUCONという大会のベンチマーカーをGoを用いて作成しました。並行プログラミングやチーム開発などについて学ぶことができました。",
+    "js_id": "modalID1"
+  },
+  {
+    "title": "サークルポートフォリオサイト",
+    "link": "https://github.com/traPtitech/traPortfolio",
+    "img_src": "assets/img/hosshii.jpeg",
+    "summary": "サークルメンバーの活動紹介サイト",
+    "tech": "Go,MariaDB,Docker,Swagger",
+    "detail": "サークルメンバーの活動を紹介するサイトのバックエンドをGoを用いて開発していました。3〜5人チームで開発しており、リーダーをしていました。",
+    "js_id": "modalID2"
+  }
+]
