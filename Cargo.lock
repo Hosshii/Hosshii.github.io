@@ -451,6 +451,7 @@ dependencies = [
 name = "portfolio"
 version = "0.1.0"
 dependencies = [
+ "gloo-utils",
  "once_cell",
  "serde",
  "serde_json",

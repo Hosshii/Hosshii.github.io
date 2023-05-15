@@ -1,0 +1,32 @@
+[
+    {
+        "date": "2019年",
+        "title": "ICTSC2019",
+        "link": "https://icttoracon.net/archives/8369",
+        "description": "ICTSC2019にチームstohmとして参加し、本戦9位となりました。"
+    },
+    {
+        "date": "2020年9月~10月",
+        "title": "ISUCON10",
+        "link": "https://isucon.net/archives/54704557.html",
+        "description": "ISUCON10にチームBruteForceで出場し、本戦出場しました。"
+    },
+    {
+        "date": "2021年4月",
+        "title": "PIXIV SPRING BOOT CAMP",
+        "link": "https://www.pixiv.co.jp/springbootcamp",
+        "description": "pixiv spring boot campに参加し、GitLab環境をk8s上に構築しました。"
+    },
+    {
+        "date": "2021年4月~10月",
+        "title": "ISUCON11運営",
+        "link": "https://isucon.net/archives/55821036.html",
+        "description": "ISUCON11に運営として参加し、本戦ベンチマーカーを作成しました。"
+    },
+    {
+        "date": "2022年1月~3月",
+        "title": "CA Tech Mission",
+        "link": "https://www.cyberagent.co.jp/careers/special/students/tech/internship/mission/",
+        "description": "<a href=\"github.com/pipe-cd/pipe-cd\">PipeCD</a>というOSSの開発に参加しました。"
+    }
+]
