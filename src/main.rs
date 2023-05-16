@@ -3,6 +3,7 @@ use yew::prelude::*;
 mod components;
 mod nav;
 mod pages;
+pub(crate) mod utils;
 
 use nav::Nav;
 use pages::{about::About, experiences::Experiences, skills::Skills, works::Works};

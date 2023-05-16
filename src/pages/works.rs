@@ -1,8 +1,7 @@
 use crate::{
     components::{
-        self,
         common::SectionTitle,
-        works::{Detail, WorkData, WorkOverView},
+        works::{Detail, WorkData, WorkList},
     },
     define_asset_loader,
 };
@@ -14,18 +13,7 @@ pub fn works() -> Html {
     html! {
         <section id="works">
           <SectionTitle>{ "works" } </SectionTitle>
-          <div class="d-flex gap-3 flex-wrap justify-content-evenly">
-            {
-              for overviews.iter().map(|v| {
-                let detail = v.clone();
-                html! {
-                  <div class="w-25" style="max-width: 300px; min-width: 200px;">
-                    <WorkOverView detail={detail} />
-                  </div>
-                }
-              })
-            }
-          </div>
+          <WorkList overviews={overviews} />
         </section>
     }
 }

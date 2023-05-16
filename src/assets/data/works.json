@@ -5,16 +5,46 @@
     "img_src": "",
     "summary": "ISUCON11ベンチマーカー",
     "tech": "Go,MySQL,Docker",
-    "detail": "ISUCONという大会のベンチマーカーをGoを用いて作成しました。並行プログラミングやチーム開発などについて学ぶことができました。",
-    "js_id": "modalID1"
+    "detail": "ISUCONという大会のベンチマーカーをGoを用いて作成しました。並行プログラミングやチーム開発などについて学ぶことができました。"
   },
   {
     "title": "サークルポートフォリオサイト",
     "link": "https://github.com/traPtitech/traPortfolio",
-    "img_src": "assets/img/hosshii.jpeg",
+    "img_src": "",
     "summary": "サークルメンバーの活動紹介サイト",
     "tech": "Go,MariaDB,Docker,Swagger",
-    "detail": "サークルメンバーの活動を紹介するサイトのバックエンドをGoを用いて開発していました。3〜5人チームで開発しており、リーダーをしていました。",
-    "js_id": "modalID2"
+    "detail": "サークルメンバーの活動を紹介するサイトのバックエンドをGoを用いて開発していました。3〜5人チームで開発しており、リーダーをしていました。"
+  },
+  {
+    "title": "mini Cコンパイラ",
+    "link": "https://github.com/Hosshii/rs9cc",
+    "img_src": "",
+    "summary": "C言語のサブセットをコンパイルするコンパイラ",
+    "tech": "Rust,C,Assembly",
+    "detail": "プログラミングがどのように動作しているかに興味があり、それを知るためにRustでCコンパイラを自作しました。"
+  },
+  {
+    "title": "tiger コンパイラ",
+    "link": "https://github.com/Hosshii/tiger-rs",
+    "img_src": "",
+    "summary": "教育用コンパイラ",
+    "tech": "Rust,Assembly,Wasm",
+    "detail": "tigerという教育用の小さな言語のコンパイラをRustを用いて作りました。ミニCコンパイラは理論もなく単純に作りましたが、tigerコンパイラはそれよりも理論に基づいておりいくらか複雑で、意味解析、レジスタ割り付けなどさまざまなことを学べました。現在Wasmにコンパイルしようとしています。"
+  },
+  {
+    "title": "Simple Poll",
+    "link": "https://trap.jp/post/736/",
+    "img_src": "",
+    "summary": "投票bot",
+    "tech": "React",
+    "detail": "サークル内ハッカソンで、部内SNSで投票に使うことができるbotのクライアントを作りました。"
+  },
+  {
+    "title": "piQ",
+    "link": "https://trap.jp/post/1102/",
+    "img_src": "",
+    "summary": "イラスト表示アプリ",
+    "tech": "Vue",
+    "detail": "サークル内ハッカソンで、サークル内のイラストを一覧表示できるアプリのサーバーを開発しました。"
   }
 ]
