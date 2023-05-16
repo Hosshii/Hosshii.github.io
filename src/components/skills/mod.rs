@@ -69,6 +69,21 @@ pub fn bar_graph(props: &BarGraphProps) -> Html {
     html! {
         <div>
             { for props.data.iter().map(render_bar) }
+            // <div class="d-flex align-items-center mb-3">
+            //     <div style="width: 150px;"></div>
+            //     <div class="progress custom-progress flex-grow-1" style="height: 1px;"></div>
+            // </div>
+            <div class="d-flex mb-5 align-items-center">
+                <div class="me-3" style="width: 150px;"></div>
+                <div class="d-flex justify-content-between flex-grow-1" >
+                    <span>{"0"}</span>
+                    <span>{"1"}</span>
+                    <span>{"2"}</span>
+                    <span>{"3"}</span>
+                    <span>{"4"}</span>
+                    <span>{"5"}</span>
+                </div>
+            </div>
             { for props.text.iter().map(render_text) }
         </div>
     }
