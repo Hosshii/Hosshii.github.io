@@ -4,7 +4,7 @@ use yew::prelude::*;
 pub fn nav_view() -> Html {
     html! {
     <nav
-      class="navbar navbar-light bg-light sticky-top"
+      class="navbar navbar-light navbar-expand-lg bg-light sticky-top"
       id="navbar"
     >
       <div class="container-fluid">
